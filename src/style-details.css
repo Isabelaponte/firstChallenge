@@ -1,8 +1,9 @@
 .post-detail-body {
-    min-height: 519px;
+    /* min-height: 519px; */
     border-radius: 8px;
     background: var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5rem;
 }
 
 .post-detail-container {
@@ -10,7 +11,7 @@
     padding: 5rem;
     justify-content: center;
     align-items: center;
-    display: flex;
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,9 +36,28 @@
     padding: 22px 55px;
 }
 
-.text-post-detail{
+.text-post-detail {
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 1.3px;
+}
+
+.comment {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+}
+
+.username-comment {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.comment p{
+    display: inline;
+}
+
+.comment hr{
+    margin: 14px 0;
 }
