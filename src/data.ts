@@ -1,1 +1,3 @@
-console.log('coisa')
+function back() {
+    window.history.back();
+}
