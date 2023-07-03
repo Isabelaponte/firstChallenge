@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function showPosts() {
     posts.forEach(post => {
         const divCardPost = document.createElement("div");
         element.appendChild(divCardPost);
-        divCardPost.classList.add("card-post");
+        divCardPost.classList.add("card-post", 'gray');
         divCardPost.addEventListener("click", (event) => {
             event.preventDefault();
             showPostsDetails(post.id);
