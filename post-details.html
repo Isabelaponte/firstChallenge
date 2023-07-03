@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/style-details.css">
     <link rel="stylesheet" href="/styles/style.css">
     <title>Posts Details</title>
-    <script src="/dist/data.js"></script>
+    <script src="/dist/posts.js"></script>
 </head>
 <body>
 
@@ -18,27 +18,10 @@
     <main class="post-detail-container">
         <button id="back-button" onclick="back()"><img src="/img/ArrowIcon.png" alt="back" class="img-arrowButton"></button>
         <article>
-            <div class="post-detail-body">
-                <img src="/img/cafe03.jpg" alt="img-post" class="img-post-detail">
-                <div class="post-detail">
-                    <h1 class="h1-details title">The Future</h1>
-                    <p class="gray text-post-detail">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-                    </p>
-                </div>
+            <div class="post-detail-body" id="post-detail">
             </div>
         </article>
-        <section class="post-detail-container post-detail-body post-detail">
-            <div class="comment">
-                <p class="username title" style="font-weight:600">username: username@gmail.com: </p>
-                <p class="gray username-comment">Thats a username comment</p>
-                <hr class="gray">
-            </div>
-            <div class="comment">
-                <p class="username title" style="font-weight:600">username: username@gmail.com: </p>
-                <p class="gray username-comment">Thats a username comment</p>
-                <hr class="gray">
-            </div>
+        <section class="post-detail-container post-detail-body post-detail" id="card2">
         </section>
     </main>
 </body>
