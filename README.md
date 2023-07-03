@@ -30,6 +30,6 @@ The project has the following structure:
 - `posts.ts`: TypeScript file responsible for posts.js file
 - `posts.js`: JavaScript file responsible for handling page elements of `post-details.html` page
 
-##How to run this project
+## How to run this project
 1. Clone the repository to your local machine
 2. Open the main file `index.html` in a web browser
