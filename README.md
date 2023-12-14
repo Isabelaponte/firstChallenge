@@ -1,15 +1,16 @@
-# firstChallenge
+# Compass UOL Internship First Project
 
-# Blog Page
+## Overview
+Welcome to the blog page developed as the first project for the Compass UOL internship. This project was created to apply the knowledge gained in the HTML, CSS, JavaScript, and TypeScript learning track. As an intern at Compass UOL, I had the opportunity to design and implement a blog page with various functionalities.
 
-This is a blog page created for an internship challenge of Compass UOL that was developed using HTML, CSS, JavaScript and Typescript.
 
 ## Functionalities
 
-- Display a post list that’s separated in cards
-- The cards display their covers, titles and a brief of their content
-- The users can click on each card, that will redirect to a new page to show all content
-- On the Page Details screen will be avaiable a list of users comments talking about the post
+- **Post List Display:** The main page showcases a list of posts, each presented in a card format.
+- **Card Details:** Cards provide a glimpse of the posts, featuring cover images, titles, and brief content descriptions.
+- **Clickable Cards:** Users can click on individual cards, redirecting them to a dedicated page displaying the full content of the selected post.
+- **Page Details:** The dedicated post page includes a list of user comments discussing the specific post.
+
 
 ## Technologies Used
 
@@ -18,13 +19,14 @@ This is a blog page created for an internship challenge of Compass UOL that was 
 - TypeScript
 - JavaScript
 
+
 ## Project Structure
 
 The project has the following structure:
-- `index.html`: main HTML file that contains the posts list
-- `style.css`: CSS file responsible for the index.html page
-- `page-details.html`: this file contains the Page Details structure
-- `style.details.css`: CSS file responsible for the page-details.html page
+- `index.html`: main HTML file containing the list of posts.
+- `style.css`: CSS file responsible for styling the `index.html` page.
+- `page-details.html`: HTML file containing the structure for the detailed post page.
+- `style.details.css`: CSS file responsible for styling the `page-details.html` page.
 - `data.ts`: TypeScript file responsible for data.js file
 - `data.js`: JavaScript file responsible for handling page elements of `index.html` page
 - `posts.ts`: TypeScript file responsible for posts.js file
@@ -32,4 +34,5 @@ The project has the following structure:
 
 ## How to run this project
 1. Clone the repository to your local machine
-2. Open the main file `index.html` in a web browser
+2. 
+3. Open the main file `index.html` in a web browser
