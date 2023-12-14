@@ -33,6 +33,25 @@ The project has the following structure:
 - `posts.js`: JavaScript file responsible for handling page elements of `post-details.html` page
 
 ## How to run this project
-1. Clone the repository to your local machine
-2. 
-3. Open the main file `index.html` in a web browser
+
+1. Clone the repository to your local machine:
+  ```
+  git clone https://github.com/Isabelaponte/firstChallenge-CompassUOL.git
+  ```
+
+2. Navigate to the project directory:
+  ```
+  cd firstChallenge-CompassUOL
+  ```
+
+3. Install the required dependencies using npm:
+  ```
+  npm install
+  ```
+
+4. Start the development server:
+  ```
+  npm start
+  ```
+
+5. Open the main file `index.html` in a web browser
